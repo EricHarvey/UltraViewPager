@@ -474,6 +474,7 @@ public class UltraViewPager extends RelativeLayout implements IUltraViewPagerFea
     }
 
     public void notifyDataSetChanged() {
+        viewPager.pagerAdapter.adapter.notifyDataSetChanged();
         viewPager.pagerAdapter.notifyDataSetChanged();
     }
 }

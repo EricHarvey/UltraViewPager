@@ -51,7 +51,7 @@ public class UltraViewPagerAdapter extends PagerAdapter {
 
     private static final int INFINITE_RATIO = 400;
 
-    private PagerAdapter adapter;
+    public PagerAdapter adapter;
     private boolean enableLoop;
     private float multiScrRatio = Float.NaN;
     private boolean hasCentered; //ensure that the first item is in the middle when enabling loop-mode

@@ -42,7 +42,7 @@ import java.util.Map;
 /**
  * Created by mikeafc on 15/11/25.
  */
-class UltraViewPagerAdapter extends PagerAdapter {
+public class UltraViewPagerAdapter extends PagerAdapter {
     interface UltraViewPagerCenterListener {
         void center();
 

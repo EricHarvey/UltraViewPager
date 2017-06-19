@@ -43,7 +43,7 @@ import android.view.ViewGroup;
  */
 public class UltraViewPagerView extends ViewPager implements UltraViewPagerAdapter.UltraViewPagerCenterListener {
 
-    private UltraViewPagerAdapter pagerAdapter;
+    public UltraViewPagerAdapter pagerAdapter;
 
     //Internal state to schedule a new measurement pass.
     private boolean needsMeasurePage;

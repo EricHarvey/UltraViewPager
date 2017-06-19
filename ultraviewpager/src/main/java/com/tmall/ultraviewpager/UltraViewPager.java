@@ -472,4 +472,8 @@ public class UltraViewPager extends RelativeLayout implements IUltraViewPagerFea
             ((UltraViewPagerAdapter) viewPager.getAdapter()).setInfiniteRatio(infiniteRatio);
         }
     }
+
+    public void notifyDataSetChanged() {
+        viewPager.pagerAdapter.notifyDataSetChanged();
+    }
 }
